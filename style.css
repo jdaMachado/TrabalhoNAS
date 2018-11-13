@@ -87,6 +87,11 @@ footer{
   height: 300px;
 }
 
+#item5{
+	height:230px;
+	margin-right: 8%;
+}
+
 .img-div{
   display: block;
   margin-left: 25%;
