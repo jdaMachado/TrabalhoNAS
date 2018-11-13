@@ -19,7 +19,7 @@ p{
 
 .navbar-brand{
   font-size:20px;
-  color:#000 !important;
+  color:#101010 !important;
   font-weight:bold;
 }
 
@@ -63,12 +63,23 @@ p{
   background:#f1f1f1;
 }
 
-#info1 .info-right{
-  margin-top:90px;
+#info1 {
+  padding: 70px 0;
 }
 
 #info2{
   margin:20px 0 60px 0;
+}
+
+.info-left-right{
+	background-color: white; 
+	box-shadow: 7px 7px 29px -4px rgba(0,0,0,0.47);
+	padding: 15px 45px;
+}
+
+
+#info1 h2{
+	padding-bottom: 20px;
 }
 
 #contact{
@@ -91,10 +102,16 @@ footer{
 	height:230px;
 	margin-right: 8%;
 }
+#item6{
+	width: 370px;
+	height: auto;
+	margin-right: 8%;
+	margin-top: 75px;
+}
 
 .img-div{
   display: block;
-  margin-left: 25%;
+  margin-left: 22%;
   margin-right: auto;
 }
 

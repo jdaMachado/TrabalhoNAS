@@ -12,7 +12,7 @@ sr.reveal('.showcase-left', {
 sr.reveal('.showcase-right', {
     duration: 2000,
     origin:'right',
-    distance:'300px'
+    distance:'220px'
 });
 sr.reveal('.showcase-btn', {
     duration: 2000,
@@ -32,7 +32,7 @@ sr.reveal('.info-left', {
 sr.reveal('.info-right', {
     duration: 2000,
     origin:'right',
-    distance:'300px',
+    distance:'220px',
     viewFactor: 0.2
 });
 
@@ -45,6 +45,7 @@ sr.reveal('.gama', {
 });
 
 //Item images
+
 sr.reveal('#item1', {
     duration: 2000,
     origin:'top',
@@ -64,4 +65,48 @@ sr.reveal('#btn2', {
     duration: 2500,
 });
 
+
+
+
+
+sr.reveal('#item3', {
+    duration: 2000,
+    origin:'top',
+    distance:'70px',
+});
+sr.reveal('#btn3', {
+    duration: 2000,
+});
+
+
+sr.reveal('#item4', {
+    duration: 2500,
+    origin:'top',
+    distance:'70px', 
+});
+sr.reveal('#btn4', {
+    duration: 2500,
+});
+
+
+
+
+sr.reveal('#item5', {
+    duration: 2000,
+    origin:'top',
+    distance:'70px',
+});
+sr.reveal('#btn5', {
+    duration: 2000,
+});
+
+
+sr.reveal('#item6', {
+    duration: 2500,
+    origin:'top',
+    distance:'70px', 
+});
+sr.reveal('#btn6', {
+    duration: 2500,
+});
 
