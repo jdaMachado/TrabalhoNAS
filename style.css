@@ -7,6 +7,11 @@ h1,h2,h3,h4,h5,h6{
   font-family:Poppins;
 }
 
+h2{
+  font-size: 40px;
+  text-shadow: 4px 2px 12px rgba(150, 150, 150, 0.4);
+}
+
 p{
   font-family:Roboto;
 }
@@ -14,12 +19,12 @@ p{
 .navbar-default{
   background:#fff;
   border:0;
-  font-family:Poppins;
+  font-family: 'Poppins';
 }
 
 .navbar-brand{
   font-size:20px;
-  color:#101010 !important;
+  color:#333333 !important;
   font-weight:bold;
 }
 
@@ -37,17 +42,21 @@ p{
   margin-top:90px;
 }
 
+
+
 #objective{
   background:#f1f1f1;
+  color: #333;
   padding: 50px 0 30px 0;
   text-align:center;
   margin-top:40px;
+  font-family:'Poppins';
 }
 
 #objective p{
   font-size:32px;
-  font-family: 'Josefin Sans';
-  color:#000;
+  font-family: 'Poppins';
+  color:#333333;
 }
 
 #objective p.customer{
@@ -59,11 +68,9 @@ p{
   padding: 50px 0 30px 0;
 }
 
-#info1{
+#ferramentas{
   background:#f1f1f1;
-}
 
-#info1 {
   padding: 70px 0;
 }
 
@@ -74,11 +81,11 @@ p{
 .info-left-right{
 	background-color: white; 
 	box-shadow: 7px 7px 29px -4px rgba(0,0,0,0.47);
-	padding: 15px 45px;
+	padding: 15px 80px;
 }
 
 
-#info1 h2{
+#ferramentas h2{
 	padding-bottom: 20px;
 }
 
@@ -135,8 +142,8 @@ div h3{
 }
 
 .produtos{
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top:100px;
+  padding-bottom:100px;
 }
 
 hr{
@@ -147,5 +154,75 @@ hr{
 
 ul li{
   line-height: 150%;
+}
+
+#bootstrap-btn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px 15px;
+  background-color: white;
+  color: #8752d4;
+  border: 1px solid #8752d4; 
+  border-radius: 10px;
+  font-size: 24px;
+  transition: 0.5s !important;
   
 }
+
+#bootstrap-btn:hover{
+  background-color: #8752d4;
+  color: white;
+}
+
+#bootstrap-page{
+  text-align: left; 
+  font-weight: 800;
+  font-size: 50px; 
+  color: #8752d4; 
+  text-shadow: 4px 2px 12px rgba(150, 150, 150, 1);
+}
+
+#scrollreveal-btn{
+  margin-top: 140px;
+  margin-bottom: 30px;
+  margin-left: 50%;
+  padding: 5px 15px;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, white, white, #fa7199, #e85a19);
+  color: #ff3864;
+  border: 1px solid #ff3864; 
+  border-radius: 10px;
+  font-size: 24px;
+  transition: 0.5s !important;
+  
+}
+
+#scrollreveal-btn:hover{
+  background-position: 100% 0;
+  color: white;
+
+}
+
+#scrollreveal-page{
+  text-align: left; 
+  font-weight: 800;
+  background: linear-gradient(100deg, #ff6c11 0%, #ff3864 60%,  #8752d4 75%, #2de2e6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px; 
+  text-shadow: 4px 2px 12px rgba(150, 150, 150, 0.25);
+}
+
+#scrollreveal-page p{
+  text-align: justify;
+}
+
+.desenvolvido-com{
+  padding: 100px 0;
+}
+
+teste{
+  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+}
+
+

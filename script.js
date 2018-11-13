@@ -44,6 +44,10 @@ sr.reveal('.gama', {
     duration: 2000,
 });
 
+sr.reveal('.desenvolvido-com', {
+    duration: 2000,
+});
+
 //Item images
 
 sr.reveal('#item1', {
